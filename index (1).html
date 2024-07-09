@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>El legado de San Martín</title>
+  <style>
+    /* Estilos generales para todas las pantallas */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #F3E7B6; 
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #34495E;
+      color: #FFF;
+      padding: 20px 0;
+      text-align: center;
+    }
+    nav {
+      text-align: center;
+      background-color: #2C3E50;
+      padding: 10px 0;
+    }
+    nav a {
+      color: #FFF;
+      text-decoration: none;
+      padding: 10px 20px;
+      margin: 0 5px;
+    }
+    nav a:hover {
+      background-color: #2980B9;
+    }
+    section {
+      padding: 20px;
+      margin-bottom: 20px;
+      background-color: #FFF;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h1, h2, h3 {
+      color: #2C3E50;
+      font-size: 24px;
+    }
+    h2 {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+    p {
+      color: #555;
+    }
+    iframe {
+      display: block;
+      margin: 0 auto 20px;
+    }
+    form {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #FFF;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    label {
+      display: block;
+      margin-bottom: 5px;
+      color: #333;
+    }
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+    }
+    button[type="submit"] {
+      background-color: #2980B9;
+      color: #FFF;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+      border-radius: 3px;
+      font-size: 14px;
+    }
+    button[type="submit"]:hover {
+      background-color: #1A5276;
+    }
+
+    /* Media queries para dispositivos móviles */
+    @media (max-width: 600px) {
+      h1, h2, h3 {
+        font-size: 20px;
+      }
+      form {
+        padding: 10px;
+      }
+      input[type="text"],
+      input[type="email"],
+      textarea {
+        font-size: 12px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>El legado de San Martín</h1>
+  </header>
+  <nav>
+    <a href="geografia.html">Geografía</a>
+    <a href="historia.html">Historia y cultura</a>
+    <a href="economia.html">Economía</a>
+    <a href="masinformacion.html">Más información</a>
+  </nav>
+  <section>
+    <h2>Introducción</h2>
+    <p>Bienvenidos a nuestra plataforma dedicada a investigar y comprender a fondo el departamento de San Martín. Aquí haremos un análisis de su geografía, historia, cultura y sociedad. San Martín es una región de una riqueza natural y cultural. En esta página desentrañaremos los misterios y bellezas que hacen de San Martín un lugar único e inigualable.</p>
+    <p>La presente página, titulada “El legado de San Martín”, se ha desarrollado mediante la investigación de diversas fuentes, resúmenes y análisis, con el objetivo de comprender a fondo la situación actual del departamento e identificar áreas de mejora. Analizando una amplia gama de datos, buscamos ofrecer una visión completa de la región y destacar sus aspectos relevantes para fomentar un mayor aprecio y aumentar el turismo. Este enfoque puede mejorar la economía, la convivencia y la valoración dentro de la comunidad. Abordaremos temas esenciales como la geografía, historia, cultura y economía. Exploraremos la ubicación y características físicas del departamento, los eventos históricos clave, las costumbres y tradiciones culturales, así como las principales actividades económicas y los desafíos que enfrenta la región.</p>
+  </section>
+  <section>
+    <h2>Antigüedad del Departamento</h2>
+    <p>El departamento de San Martín fue creado el 4 de septiembre de 1906.</p>
+    <h2>Rasgo Más Resaltante</h2>
+    <p>San Martín es conocido por su impresionante biodiversidad y hermosos paisajes naturales, incluyendo la selva tropical y numerosas cataratas.</p>
+    <h2>Distancia de Lima a San Martín</h2>
+    <p>La distancia de Lima a San Martín es de aproximadamente 1,300 km por carretera. Las rutas principales son la Carretera Central (Ruta 22) y luego la Ruta 5N hacia el norte. Otra opción es tomar un vuelo desde Lima a Tarapoto, que dura alrededor de 1.5 horas.</p>
+  </section>
+  <section>
+    <h2>San Martín: Video informativo</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/u4kDK-199T8?si=MqfD-vmV3zOOHRG9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </section>
+  <section>
+    <h2>Contacto</h2>
+    <form action="/submit" method="post">
+      <label for="name">Nombre Completo:</label><br>
+      <input type="text" id="name" name="name" required><br>
+      
+      <label for="email">Correo Electrónico:</label><br>
+      <input type="email" id="email" name="email" required><br>
+      
+      <label for="comments">Comentarios:</label><br>
+      <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br>
+      
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+</body>
+</html>
